@@ -11,14 +11,34 @@ body {
     background-position: center;
     background-size: cover;
 }
+.navbar-brand {
+    color: rgb(7, 74, 7);
+    font-weight: 600;
+  }
+  
+  .nav-link {
+   color: rgb(7, 74, 7);
+   font-weight: 600;
+   text-transform: uppercase;
+  }
 
 main {
-    background-color: rgba(78, 120, 98, 0.684);
+    background-color: rgba(36, 83, 60, 0.647);
     margin: 30px;
     padding: 20px;
     border-radius: 3%;
+    margin-top: 20px;
 }
 
+.hero {
+font-weight: 600;
+   font-size: large;
+}
+
+.features {
+    font-weight: 400;
+    font-size: large;
+}
 
 .text-center {
     margin-bottom: 10px;
@@ -41,6 +61,7 @@ h1 h2 h4 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -66,12 +87,10 @@ footer {
     font-size: 30px;
     transition: transform 0.3s ease;
     color: #C031B5;
-
 }
 
 .social-media-links .inline-link:hover {
     transform: scale(1.2);
     background-color: #A0238D;
     text-align: center;
-
 }
