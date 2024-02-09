@@ -11,16 +11,21 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .navbar-brand {
     color: rgb(7, 74, 7);
     font-weight: 600;
-  }
-  
-  .nav-link {
-   color: rgb(7, 74, 7);
-   font-weight: 600;
-   text-transform: uppercase;
-  }
+}
+
+.nav-link {
+    color: rgb(7, 74, 7);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #A0238D;
+}
 
 main {
     background-color: rgba(36, 83, 60, 0.647);
@@ -31,8 +36,8 @@ main {
 }
 
 .hero {
-font-weight: 600;
-   font-size: large;
+    font-weight: 600;
+    font-size: large;
 }
 
 .features {
@@ -86,11 +91,18 @@ footer {
     margin: 10px;
     font-size: 30px;
     transition: transform 0.3s ease;
-    color: #C031B5;
 }
 
 .social-media-links .inline-link:hover {
     transform: scale(1.2);
-    background-color: #A0238D;
     text-align: center;
+}
+
+.social-media-links li a {
+    color: #FCF8FF;
+    margin-right: 30px;
+}
+
+.social-media-links li a:hover {
+    color: #C031B5;
 }
