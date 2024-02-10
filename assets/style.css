@@ -140,3 +140,11 @@ plant-profile {
     margin-bottom: 5px; 
 }
 
+/* Sign-up */
+
+
+.signup-form button[type="submit"] {
+    border: none; 
+    padding: 12px 20px;
+    cursor: pointer;  
+} 
