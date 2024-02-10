@@ -119,3 +119,24 @@ footer {
     font-weight: 600;
     font-size: large;
 }
+
+/* Plant Guide */
+
+plant-profile {
+    margin: 20px 0; 
+}
+
+.plant-name { 
+    font-size: 32px; 
+    margin-bottom: 15px; 
+}
+
+.plant-profile h3 {
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+.care-guide li {
+    margin-bottom: 5px; 
+}
+
